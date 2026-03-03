@@ -54,10 +54,24 @@ const site = {
 
   // --- Comments ---
   comments: {
-    enabled: false,
-    provider: "artalk" as const,
+    enabled: true,
+    provider: "giscus" as "giscus" | "artalk",
     artalk: {
       server: "https://your-artalk-server.com",
+    },
+    giscus: {
+      repo: "yunyizea/blog",
+      repoId: "R_kgDORcVqJw",
+      category: "Announcements",
+      categoryId: "DIC_kwDORcVqJ84C3kjy",
+      mapping: "pathname",
+      strict: 0,
+      reactionsEnabled: 1,
+      emitMetadata: 0,
+      inputPosition: "bottom",
+      theme: "light_tritanopia",
+      lang: "zh-CN",
+      loading: "lazy",
     },
   },
 

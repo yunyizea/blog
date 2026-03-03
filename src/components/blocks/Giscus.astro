@@ -1,0 +1,29 @@
+---
+import site from "@/config/site";
+
+const { enabled, provider, giscus } = site.comments;
+---
+
+{
+  enabled && provider === "giscus" && giscus && (
+    <div class="animate-in fade-in duration-1000">
+      <script
+        src="https://giscus.app/client.js"
+        data-repo={giscus.repo}
+        data-repo-id={giscus.repoId}
+        data-category={giscus.category}
+        data-category-id={giscus.categoryId}
+        data-mapping={giscus.mapping}
+        data-strict={giscus.strict.toString()}
+        data-reactions-enabled={giscus.reactionsEnabled.toString()}
+        data-emit-metadata={giscus.emitMetadata.toString()}
+        data-input-position={giscus.inputPosition}
+        data-theme={giscus.theme}
+        data-lang={giscus.lang}
+        data-loading={giscus.loading}
+        crossorigin="anonymous"
+        async
+      />
+    </div>
+  )
+}
