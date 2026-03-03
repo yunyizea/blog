@@ -1,125 +1,58 @@
-# Breeze
+# Yunyize
 
-A minimal, clean Astro theme for personal websites and blogs.
+你好！我是 Yunyize，欢迎来到我的博客。
 
-Built with [Astro 5](https://astro.build), [Tailwind CSS v4](https://tailwindcss.com), and TypeScript.
+## 关于我
 
-[中文文档 / Chinese Documentation](./README.zh-CN.md)
+我是一名 ~~伪全栈~~ 程序员，虽然知道还有很多东西都不太会，但无论是在公司亦或是生活中，大伙都乐意叫我"全栈"。
 
-## Features
+在生活中我也乐此不疲的喜欢帮助身边的朋友完成一些小玩意儿的开发，无论是前端、后端、数据库还是其他什么，我都很乐意和他们分享我的知识和经验。
 
-- Dark / Light mode with smooth toggle
-- Full-text search (Pagefind, Cmd+K)
-- RSS feed and sitemap
-- Artalk comments (optional)
-- Umami analytics (optional)
-- Content collections (posts, projects, categories, tags, friends)
-- Table of contents for posts
-- Expressive Code syntax highlighting
-- View Transitions
-- Responsive design
-- OKLch color system with easy hue customization
+## 技术栈
 
-## Quick Start
+- **后端**：Golang —— GoFrame 开发框架、Gin 框架以及 GORM ORM 框架
+- **前端**：Vue3、TypeScript、Element Plus、Pinia、Electron、Wails
+- **中间件**：Redis、Kafka、Nginx
+- **数据库**：PostgreSQL、MySQL
+- **运维**：Linux、Shell、Docker、Kubernetes、Prometheus、Grafana
+- **IoT 开发**：MQTT、TCP
+- **硬件开发**：ESP32、ESP8266、Arduino
+- **其他**：Git、Markdown、RESTful API、WebSocket
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/astro-theme-breeze.git my-site
-cd my-site
+## 编程工具
 
-# Install dependencies
-pnpm install
+### 编程语言
 
-# Start development server
-pnpm dev
+Golang、Python、JavaScript、TypeScript、Java
 
-# Build for production
-pnpm build
-```
+### 编程框架
 
-## Configuration
+GoFrame、Gin、GORM、Vue2/3、PostgreSQL、MySQL、Redis、Kafka、MQTT
 
-All site configuration is in `src/config/site.ts`. This is the only file you need to edit to personalize the theme.
+### 设计工具
 
-| Section | Description |
-|---------|-------------|
-| `meta` | Site title, description, author, logo, language |
-| `navigation` | Navigation menu items with subtitle labels |
-| `social` | Social links (GitHub, Email, etc.) |
-| `hero` | Homepage greeting, description, info cards |
-| `footer` | Copyright and credit text |
-| `comments` | Artalk comments configuration |
-| `features` | Toggle search, RSS |
-| `tools` | Tools/Stack page data |
-| `labels` | All UI text labels (for i18n) |
+莫高设计 | MasterGo、墨刀 | MoDao
 
-Also update `astro.config.mjs` to set your `site` URL.
+### 开发工具
 
-## Content
+Trae、Claude Cli、VS Code、Terminal、Chrome、Git、GoLand、ApiFox、Postman
 
-### Blog Posts
+### 操作系统
 
-Add Markdown or MDX files to `src/content/posts/`:
+Linux Ubuntu、Windows 10/11、MacOS
 
-```yaml
+## 博客内容
+
+这里主要是记录一些自己的 Coding 过程和一些思考，偶尔也会分享一些生活中的小确幸和一些有趣的项目以及感想。
+
+## 联系方式
+
+Email: yunyizea@gmail.com
+
 ---
-title: My First Post
-createdAt: 2025-01-01
-category: technology
-tags: [astro, tutorial]
-summary: A brief description of the post.
----
-```
 
-### About Page
+> 会的越多、会的越少
 
-Edit `src/content/pages/about.md` — pure Markdown, no component knowledge needed.
+关于计算机方向，我知道自己还有很多东西要学习，我现在的状态远远称不上"全栈"，但我会一直保持学习的态度，因为我知道，我会有一天成为一名"全栈"程序员。
 
-### Projects
-
-Add to `src/content/projects/` with frontmatter: `title`, `description`, `tech`, `link`, `status`.
-
-### Categories & Tags
-
-Edit `src/content/miscs/categories.json` and `src/content/miscs/tags.json`.
-
-### Friends
-
-Edit `src/content/miscs/friends.json` with `name`, `description`, `link`, `avatar`.
-
-## Theme Colors
-
-Edit `src/styles/theme.css`. All colors use OKLch with a consistent hue value (default: 165).
-
-To change the color palette, find-and-replace the hue number:
-
-- `165` = Sage Green (default)
-- `250` = Ocean Blue
-- `280` = Lavender Purple
-- `330` = Rose Pink
-- `30` = Warm Orange
-
-## Comments (Artalk)
-
-1. Set up an [Artalk](https://artalk.js.org) server
-2. In `src/config/site.ts`, set `comments.enabled: true` and `comments.artalk.server` to your server URL
-3. To disable comments, set `comments.enabled: false`
-
-## Analytics (Umami)
-
-1. Copy `.env.example` to `.env`
-2. Set `UMAMI_URL` and `UMAMI_WEBSITE_ID`
-
-## Deploy
-
-Works with any static hosting: Vercel, Netlify, Cloudflare Pages, etc.
-
-```bash
-pnpm build
-```
-
-The output is in `dist/`.
-
-## License
-
-MIT
+好好热爱你的生活，好好爱自己。
