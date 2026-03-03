@@ -1,27 +1,11 @@
 ---
-title: Hello World - Welcome to Breeze
-createdAt: 2025-01-01
-category: technology
+title: Hello, World!
+createdAt: 2026-03-03
+category: coding
 tags: [astro, tailwindcss]
-summary: Welcome to Breeze, a minimal Astro theme for personal websites.
+summary: 你好，欢迎来到我的博客，这是我的第一篇文章，我将分享我在开发过程中的经验和学习到的知识。
 ---
 
-Welcome to **Breeze**, a clean and minimal Astro theme designed for personal websites and blogs.
+## 旅人，你好！
 
-## Features
-
-- Built with Astro 5 and Tailwind CSS v4
-- Dark / Light mode toggle
-- Full-text search powered by Pagefind
-- RSS feed and sitemap generation
-- Content collections for posts, projects, and more
-- Responsive design
-
-## Getting Started
-
-1. Edit `src/config/site.ts` to customize your site
-2. Add your posts to `src/content/posts/`
-3. Edit `src/content/pages/about.md` for your about page
-4. Deploy to your favorite hosting platform
-
-Happy writing!
+向着月亮出发，即使不能到达，也能站着群星之中。
